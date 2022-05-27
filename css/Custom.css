@@ -1,0 +1,93 @@
+header{
+	min-height: 83vh;
+	background-image: url(../images/home-banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position-x: right;
+}
+nav{}
+nav ul{
+	display: flex;
+	justify-content: right;
+}
+nav ul li{
+	list-style: none;
+	padding: 10px 20px;
+
+}
+nav ul li:hover{
+	color: #3498db;
+}
+body{
+	font-family: Open sans;
+}
+.bannerContent{
+	color: white;
+	padding-left: 25px;
+	padding-top: 40px;
+}
+.bannerContent h1{
+	font-family: oswalds;
+	font-weight: 1800px;
+}
+.bannerContent p{}
+.bannerContent .btnCustom{
+	font-size: 15px;
+	text-transform: uppercase;
+	background-color: white;
+	color: black;
+}
+.productSection{
+	display: flex;
+	padding: 50px 0px;
+	text-align: center;
+}
+.container-fluid{}
+.heading{
+	text-align: center;
+}
+.heading h2{
+	font-size: 30px;
+	font-weight: 900;
+	color: #a15b43
+}
+.heading p{
+	color: #ab5a3d;
+}
+.productBox{
+
+}
+.productBox img{}
+.productBox h3{
+	font-size: 25px;
+	font-weight: 600;
+	color: #ab5a3d;;
+}
+.productBox 
+	.btnproduct1{
+		background-color: #e80060;
+		color: white;
+	}
+	.btnproduct2{
+		background-color: #01a49a ;
+		color: white;
+	}
+	.btnproduct3{
+		background-color: #ac5a3b;
+		color: white;
+	}
+.bg-blue{
+	background-color: #33d2e9;
+	display: flex;
+	justify-content: center;
+	text-color: white;
+}
+.footer a{
+	color: white;
+	font-size: 20px;
+}
+@media(max-width: 1399px){}
+@media(max-width: 1199px){}
+@media(max-width: 991px){}
+@media(max-width: 767px){}
+@media(max-width: 575px){}
